@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nama": "Pecel Lele",
+    "image":"blob:https://web.whatsapp.com/40a96d9d-271c-4e2e-8225-5c8cec37f133",
+    "harga": 40000
+  },
+  {
+    "id": 2,
+    "nama": "Pecel Ayam",
+    "image":"blob:https://web.whatsapp.com/08ecaa24-0668-4dce-978f-9cb0a72a5685",
+    "harga": 40000
+  },
+  {
+    "id": 3,
+    "nama": "Es Teh Manis",
+    "image":"blob:https://web.whatsapp.com/5c39c3c6-36c0-4ef5-936a-6c18242a254a",
+    "harga": 7000
+  },
+  {
+    "id": 4,
+    "nama": "Ayam Serundeng",
+    "image":"blob:https://web.whatsapp.com/ec9041d1-280b-424f-96e5-5afc1d810637",
+    "harga": 45000
+  },
+  {
+    "id": 5,
+    "nama": "Nasi Kuning",
+    "image":"blob:https://web.whatsapp.com/6305c4e2-2648-4000-a687-0faf65fad726",
+    "harga": 35000
+  },
+  {
+    "id": 6,
+    "nama": "Lumpia Ayam",
+    "image":"blob:https://web.whatsapp.com/2d24eb7e-f0ce-4f99-9299-390d152af6bf",
+    "harga": 17000
+  },
+  {
+    "id": 7,
+    "nama": "Getuk",
+    "image":"blob:https://web.whatsapp.com/d440d7e9-c792-4682-87d3-147823623fff",
+    "harga": 11000
+  },
+  {
+    "id": 8,
+    "nama": "Onde-Onde",
+    "image":"blob:https://web.whatsapp.com/115e4c02-eab6-43f0-80be-15d97a032e74",
+    "harga": 12000
+  },
+  {
+    "id": 9,
+    "nama": "Klepon",
+    "image":"blob:https://web.whatsapp.com/d9819a24-c9bc-4e68-8ad0-630c300322fd",
+    "harga": 12000
+  },
+  {
+    "id": 10,
+    "nama": "Rujak",
+    "image":"blob:https://web.whatsapp.com/043727b4-ce17-4bb8-810a-956452a8af2d",
+    "harga": 10000
+  },
+  {
+    "id": 11,
+    "nama": "Kopi",
+    "image":"blob:https://web.whatsapp.com/d8f53533-3830-413b-8d25-00a8defcf9a2",
+    "harga": 15000
+  },
+  {
+    "id": 12,
+    "nama": "Lemon Tea",
+    "image":"blob:https://web.whatsapp.com/8d912cbb-424e-44d0-b4a3-2484c72a0585",
+    "harga": 7000
+  },
+  {
+    "id": 13,
+    "nama": "Es Kelapa",
+    "image":"blob:https://web.whatsapp.com/0e579c65-f029-4ce7-b293-7ce1620223ce",
+    "harga": 12000
+  },
+  {
+    "id": 14,
+    "nama": "Wedang jahe",
+    "image":"blob:https://web.whatsapp.com/20f99f11-330e-47fb-b667-73a61698685c",
+    "harga": 17000
+  },
+  {
+    "id": 15,
+    "nama": "Es Campur",
+    "image":"blob:https://web.whatsapp.com/6438d54b-180b-4f9f-842d-4cb968a7942f",
+    "harga": 20000
+  },
+  {
+    "id": 16,
+    "nama": "Es Dawet",
+    "image":"blob:https://web.whatsapp.com/c29eab65-49ac-4162-80c6-1b4a57b557fe",
+    "harga": 17000
+  },
+  {
+    "id": 17,
+    "nama": "Udang Asem Manis",
+    "image":"blob:https://web.whatsapp.com/412c7441-c588-43a0-877c-f56db78b1999",
+    "harga": 47000
+  },
+  {
+    "id": 18,
+    "nama": "Cumi Bakar",
+    "image":"blob:https://web.whatsapp.com/2e9775fc-f6d2-426b-bfbd-9d7f9961c3cf",
+    "harga": 47000
+  },
+  {
+    "id": 19,
+    "nama": "Ikan Nila Bakar",
+    "image":"blob:https://web.whatsapp.com/70578702-1b50-4a0d-b6f5-6789c7293683",
+    "harga": 47000
+  },
+  {
+    "id": 20,
+    "nama": "Bebek",
+    "image":"blob:https://web.whatsapp.com/8b228562-a4ee-46ee-ba1b-464342fc9667",
+    "harga": 47000
+  }
+]   
