@@ -1,8 +1,6 @@
-// Fungsi render yang fleksibel menerima target ID container
 function renderProducts(products, containerId) {
   const container = document.getElementById(containerId);
 
-  // Jika container id tidak ada di halaman saat ini, batalkan rendering (biar gak error)
   if (!container) return;
 
   container.innerHTML = products
@@ -27,10 +25,12 @@ async function loadLandingProducts() {
     const response = await fetch("./data/products.json");
     const products = await response.json();
 
-    // Ambil cuma 3 produk pertama
-    const latestProducts = products.slice(0, 3);
+    const newMenuIds = [1, 2, 17];
+    const newMenu = products
+      .filter((item) => newMenuIds.includes(item.id))
+      .slice(0, 3);
 
-    renderProducts(latestProducts, "landing-container");
+    renderProducts(newMenu, "landing-container");
   } catch (error) {
     console.error("Gagal memuat produk landing:", error);
   }
