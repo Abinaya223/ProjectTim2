@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-alfa: "Alfa Slab One", serif;
+  --font-kapakana: "Kapakana", cursive;
+  --font-roboto: "Roboto Condensed", sans-serif;
+}

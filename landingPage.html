@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kapakana:wght@300..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Pecel Nusantara</title>
+</head>
+<body class="bg-[#FAF5F5]">
+    <div id="sidebar-container"></div>
+    <img src="./assets/bg/bg1.png" alt="bg" class="w-full h-screen object-cover">
+    
+    <nav class="absolute top-0 left-0 w-full flex items-center p-4 bg-transparent text-white z-10">
+        <button id="menuBtn" class="cursor-pointer focus:outline-none">
+            <i data-feather="menu" class="text-black w-8 h-8"></i>
+        </button>
+        <h1 class="mx-auto text-white text-6xl font-kapakana text-shadow-2xs">
+            Pecel Nusantara
+        </h1>
+    </nav>
+    
+    <div class="relative flex justify-between items-center px-8 bg-white">
+        <div class="flex justify-start">
+            <img src="./assets/bg/logo.png" alt="Menu Kiri" class="w-35 h-35">
+        </div>
+        
+        <div class="text-center">
+            <h2 class="text-4xl font-bold text-[#7B4A29]">Menu Baru</h2>
+        </div>
+        
+        <div class="flex justify-end">
+            <img src="./assets/bg/logo.png" alt="Menu Kanan" class="w-35 h-35">
+        </div>
+    </div>
+
+<section id="landing-container" class="relative py-12 grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto px-6"></section>
+
+    <section class="relative w-full py-16 px-6 overflow-hidden bg-[#7B4A29]">
+    <img src="./assets/bg/bg2.jpg" alt="Background Cerita" class="absolute inset-0 w-full h-full object-cover z-0"/>
+    <div class="absolute inset-0 bg-linear-to-b from-[#6D320E]/90 to-[#522409]/90 z-0"></div>
+    <div class="relative max-w-3xl mx-auto text-left text-white space-y-4">
+        <h2 class="text-3xl md:text-4xl font-extrabold uppercase tracking-wider text-amber-100 drop-shadow-sm">
+            Cerita Pecel Lele
+        </h2>
+        <p class="text-sm md:text-base font-semibold text-amber-200/90 tracking-wide">
+            Cita Rasa Lezat, Harga Bersahabat
+        </p>
+        <p class="text-xs md:text-sm leading-relaxed text-amber-50/90 font-light max-w-2xl pt-2">
+            Perjalanan ini dimulai saat seorang siswa ingin membuat bisnis makanan di kelas 2 SMA bersama teman kelasnya. Ingin mendapat penghasilan tambahan dalam ranah kuliner dan memutuskan untuk membuat bisnis pecel lele yang enak dan lezat.
+        </p>
+        <div class="pt-6">
+            <a href="about.html" class="inline-block bg-[#4A2007] hover:bg-[#361704] text-amber-100 font-bold text-sm px-8 py-3 rounded-xl shadow-lg border border-amber-900/40 transition-all duration-300 transform hover:-translate-y-0.5">
+                Pesona pecel
+            </a>
+        </div>
+    </div>
+</section>
+
+    <footer class="w-full bg-[#7B4A29] text-white">
+        <div class="max-w-6xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="flex flex-col items-center">
+                <div class="mb-2"><i data-feather="map-pin"></i></div>
+                <h3 class="font-bold text-sm tracking-wide">Pecel Nusantara</h3>
+                <p class="text-xs text-amber-200/80 mt-1">Depok (Jl. Margonda Raya)</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="mb-2"><i data-feather="map-pin"></i></div>
+                <h3 class="font-bold text-sm tracking-wide">Pecel Nusantara</h3>
+                <p class="text-xs text-amber-200/80 mt-1">Bandung (Jl. Riau)</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="mb-2"><i data-feather="map-pin"></i></div>
+                <h3 class="font-bold text-sm tracking-wide">Pecel Nusantara</h3>
+                <p class="text-xs text-amber-200/80 mt-1">Jakarta (Kemang)</p>
+            </div>
+        </div>
+
+        <div class="bg-[#6D320E] py-3 text-center">
+            <p class="text-[10px] text-amber-200/60 font-light">
+                @ Copyright 2025 PT Bintang Jaya
+            </p>
+        </div>
+    </footer>
+
+    <script src="./JS/index.js"></script>
+    <script src="./JS/product.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
