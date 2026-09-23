@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   container.innerHTML = `
         <div id="sidebarOverlay" class="fixed inset-0 bg-black/40 z-40 hidden transition-opacity"></div>
-
         <aside id="sidebar" class="fixed top-0 left-0 z-50 w-64 h-full bg-[#F3F3F3] border-r-2 border-[#6D320E] shadow-xl flex flex-col justify-between -translate-x-full transition-transform duration-300 ease-in-out">
             <div>
                 <div class="p-6 border-b-2 border-[#6D320E] flex justify-between items-center">
